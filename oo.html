@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSLC 2025 Chapter Tracker</title>
+    <style>
+        body {
+            font-family: #FFFFFF;
+            margin: 20px;
+            background-color: #E5E4E2;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #2c3e50;
+            color: white;
+        }
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+        select, input[type="text"], input[type="checkbox"], input[type="number"] {
+            padding: 5px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+        .easy {
+            color: green;
+        }
+        .medium {
+            color: orange;
+        }
+        .hard {
+            color: red;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #2c3e50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #34495e;
+        }
+    </style>
+</head>
+<body>
+    <h1>SSLC 2025 Chapter Tracker</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Chapter Name</th>
+                <th>Toughness</th>
+                <th>Complete or Not</th>
+                <th>Importance</th>
+                <th>hours to complete</th>
+                <th>Action</th>
+            </tr>
+     <section id="math">
+        <h2>Mathematics</h2>
+        <p>Download the Mathematics notes:</p>
+        <a href="https://1024terabox.com/s/1FwRjQ_FKx3FUglSAuoHUMA" target="_blank">NO:1 (PDF)</a>
+<br>
+        <a href="https://1024terabox.com/s/1ql98B77Dka7BchpeeYNegg" target="_blank">NO:2 (PDF)</a>
+<br>
+        <a href="https://1024terabox.com/s/15VpE9Py9YTdTHlzCIr0ViA" target="_blank">NO:3 (PDF)</a>
+<br>
+        <a href="https://1024terabox.com/s/1rCphG9SnWoQyFlZKfhZ5bA" target="_blank">NO:4 (PDF)</a>
+<br>
+        <a href="https://1024terabox.com/s/13VMnfnxhMHw07SYEwbYMMA" target="_blank">NO:5 (PDF)</a>
+    </section>
+
+        </thead>
+        <tbody>
+            <!-- Example Chapters -->
+            <tr>
+                <td><input type="text" value="Arithmetic Sequences"></td>
+                <td>
+                    <select>
+                        <option value="easy" class="easy">Easy</option>
+                        <option value="medium" class="medium">Medium</option>
+                        <option value="hard" class="hard">Hard</option>
+                    </select>
+                </td>
+                <td><input type="checkbox"></td>
+                <td><input type="text" value="High"></td>
+                <td><input type="number" value="10"></td>
+                <td><button onclick="saveRow(this)">Save</button></td>
+            </tr>
+            <tr>
+                <td><input type="text" value="Mathematics of Chance"></td>
+                <td>
+                    <select>
+                        <option value="easy" class="easy">Easy</option>
+                        <option value="medium" class="medium">Medium</option>
+                        <option value="hard" class="hard">Hard</option>
+                    </select>
+                </td>
+                <td><input type="checkbox"></td>
+                <td><input type="text" value="High"></td>
+                <td><input type="number" value="15"></td>
+                <td><button onclick="saveRow(this)">Save</button></td>
+            </tr>
+            <tr>
+                <td><input type="text" value="Circles"></td>
+                <td>
+                    <select>
+                        <option value="easy" class="easy">Easy</option>
+                        <option value="medium" class="medium">Medium</option>
+                        <option value="hard" class="hard">Hard</option>
+                    </select>
+                </td>
+                <td><input type="checkbox"></td>
+                <td><input type="text" value="Medium"></td>
+                <td><input type="number" value="20"></td>
+                <td><button onclick="saveRow(this)">Save</button></td>
+            </tr>
+            <tr>
+                <td><input type="text" value="Second Degree Equations"></td>
+                <td>
+                    <select>
+                        <option value="easy" class="easy">Easy</option>
+                        <option value="medium" class="medium">Medium</option>
+                        <option value="hard" class="hard">Hard</option>
+                    </select>
+                </td>
+                <td><input type="checkbox"></td>
+                <td><input type="text" value="High"></td>
+                <td><input type="number" value="5"></td>
+                <td><button onclick="saveRow(this)">Save</button></td>
+            </tr>
+            <tr>
+                <td><input type="text" value="Geometry and Algebra"></td>
+                <td>
+                    <select>
+                        <option value="easy" class="easy">Easy</option>
+                        <option value="medium" class="medium">Medium</option>
+                        <option value="hard" class="hard">Hard</option>
+                    </select>
+                </td>
+                <td><input type="checkbox"></td>
+                <td><input type="text" value="High"></td>
+                <td><input type="number" value="8"></td>
+                <td><button onclick="saveRow(this)">Save</button></td>
+            </tr>
+            <tr>
+                <td><input type="text" value="Trigonometry"></td>
+                <td>
+                    <select>
+                        <option value="easy" class="easy">Easy</option>
+                        <option value="medium" class="medium">Medium</option>
+                        <option value="hard" class="hard">Hard</option>
+                    </select>
+                </td>
+                <td><input type="checkbox"></td>
+                <td><input type="text" value="High"></td>
+                <td><input type="number" value="5"></td>
+                <td><button onclick="saveRow(this)">Save</button></td>
+            </tr>
+            <tr>
+                <td><input type="text" value="Coordinates"></td>
+                <td>
+                    <select>
+                        <option value="easy" class="easy">Easy</option>
+                        <option value="medium" class="medium">Medium</option>
+                        <option value="hard" class="hard">Hard</option>
+                    </select>
+                </td>
+                <td><input type="checkbox"></td>
+                <td><input type="text" value="High"></td>
+                <td><input type="number" value="5"></td>
+                <td><button onclick="saveRow(this)">Save</button></td>
+            </tr>
+            <tr>
+                <td><input type="text" value="Polynomials"></td>
+                <td>
+                    <select>
+                        <option value="easy" class="easy">Easy</option>
+                        <option value="medium" class="medium">Medium</option>
+                        <option value="hard" class="hard">Hard</option>
+                    </select>
+                </td>
+                <td><input type="checkbox"></td>
+                <td><input type="text" value="High"></td>
+                <td><input type="number" value="5"></td>
+                <td><button onclick="saveRow(this)">Save</button></td>
+            </tr>
+            <tr>
+                <td><input type="text" value="Tangents"></td>
+                <td>
+                    <select>
+                        <option value="easy" class="easy">Easy</option>
+                        <option value="medium" class="medium">Medium</option>
+                        <option value="hard" class="hard">Hard</option>
+                    </select>
+                </td>
+                <td><input type="checkbox"></td>
+                <td><input type="text" value="High"></td>
+                <td><input type="number" value="5"></td>
+                <td><button onclick="saveRow(this)">Save</button></td>
+            </tr>
+            <tr>
+                <td><input type="text" value="Solids"></td>
+                <td>
+                    <select>
+                        <option value="easy" class="easy">Easy</option>
+                        <option value="medium" class="medium">Medium</option>
+                        <option value="hard" class="hard">Hard</option>
+                    </select>
+                </td>
+                <td><input type="checkbox"></td>
+                <td><input type="text" value="High"></td>
+                <td><input type="number" value="5"></td>
+                <td><button onclick="saveRow(this)">Save</button></td>
+            </tr>
+            <tr>
+                <td><input type="text" value="Statistics"></td>
+                <td>
+                    <select>
+                        <option value="easy" class="easy">Easy</option>
+                        <option value="medium" class="medium">Medium</option>
+                        <option value="hard" class="hard">Hard</option>
+                    </select>
+                </td>
+                <td><input type="checkbox"></td>
+                <td><input type="text" value="High"></td>
+                <td><input type="number" value="5"></td>
+                <td><button onclick="saveRow(this)">Save</button></td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <script>
+        function saveRow(button) {
+            const row = button.closest('tr');
+            const chapterName = row.querySelector('input[type="text"]').value;
+            const toughness = row.querySelector('select').value;
+            const isComplete = row.querySelector('input[type="checkbox"]').checked;
+            const importance = row.querySelectorAll('input[type="text"]')[1].value;
+            const remainingDays = row.querySelector('input[type="number"]').value;
+
+            alert(`Saved:\nChapter: ${chapterName}\nToughness: ${toughness}\nComplete: ${isComplete}\nImportance: ${importance}\nRemaining Days: ${remainingDays}`);
+        }
+    </script>
+</body>
+</html>
